@@ -11,3 +11,6 @@ Code for paper "The Dynamics of Task Interactions in Deep Linear Multi-Task Netw
 
 The remaining Python files provide shared dataset, training, logging, task-overlap, and utility functionality used by the notebooks and experiments.
 
+
+## Documentation
+For the exact configuration of each high-dimensional experiment please see the TMLR paper.
