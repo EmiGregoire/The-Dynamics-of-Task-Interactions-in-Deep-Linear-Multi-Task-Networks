@@ -1,5 +1,10 @@
-# The-Dynamics-of-Task-Interactions-in-Deep-Linear-Multi-Task-Networks
-Code for paper "The Dynamics of Task Interactions in Deep Linear Multi-Task Networks" published in TMLR. 
+# The Dynamics of Task Interactions in Deep Linear Multi-Task Networks
+Code for paper "The Dynamics of Task Interactions in Deep Linear Multi-Task Networks" published in the Transactions on Machine Learning Research. 
+
+The goal of this paper is to provide insight into how task alignment (defined in terms of singular vectors) shapes the way multiple tasks interact in linear multi-task networks. 
+
+<img width="469" height="295" alt="image" src="https://github.com/user-attachments/assets/e6d04a4b-f8a3-44f5-b642-6e0586eab0d7" />
+
 
 ## Repository contents
 
