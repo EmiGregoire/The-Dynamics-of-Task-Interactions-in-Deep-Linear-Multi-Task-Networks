@@ -1,0 +1,35 @@
+{
+  "dataset": "multimnist",
+  "input_dim": 1296,
+  "out_dim_1": 10,
+  "out_dim_2": 10,
+  "tasktype": "multimnist",
+  "batch_size": 50000,
+  "hidden_dim": 20,
+  "training_steps": 400000,
+  "learning_rate": 0.01,
+  "model_type": "linear",
+  "init_mode": "random",
+  "init_lambda": 0.0,
+  "backend": "torch",
+  "backend_resolved": "torch",
+  "device": "cuda",
+  "save_weight_history": false,
+  "csv_log_interval": 1000,
+  "weighting_mode": "none",
+  "gradient_surgery": "none",
+  "y1_normalize_targets": false,
+  "y2_normalize_targets": false,
+  "x_shape": [
+    50000,
+    1296
+  ],
+  "y1_shape": [
+    50000,
+    10
+  ],
+  "y2_shape": [
+    50000,
+    10
+  ]
+}
