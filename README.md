@@ -1,11 +1,11 @@
 # The Dynamics of Task Interactions in Deep Linear Multi-Task Networks
 Code for paper "The Dynamics of Task Interactions in Deep Linear Multi-Task Networks" published in the Transactions on Machine Learning Research. 
 
-The goal of this paper is to provide insight into how task alignment (defined in terms of singular vectors) shapes the way multiple tasks interact in linear multi-task networks. The repository contains all the code to reproduce the results presented in the paper. Exact reproduction of the main papers figures is possible by running the correpsonding notebooks; 
+The goal of this paper is to provide insight into how task alignment (defined in terms of singular vectors) shapes the way multiple tasks interact in linear multi-task networks. The repository contains all the code to reproduce the results presented in the paper. Exact reproduction of the main papers figures is possible by running the correpsonding notebooks. 
 
-<img width="464" height="185" alt="image" src="https://github.com/user-attachments/assets/6b8ccd22-4353-40b0-b2e8-405147008570" />
-\textbf{Column A.} Analytical solutions (black dotted lines) match numerical simulations of task-specific losses (task~1: green; task~2: blue solid lines) and, \textbf{Columns B-C}, the components of the network functions $\mathbf{W}_i\mathbf{W}_S$ for a linear neural network ($N_1=5$, $N_S=2$, $N_{o1}=N_{o2}=1$). The network is trained on fully aligned (top row), conflicting (middle row), and orthogonal (bottom row) regression tasks constructed as described in Appendix~\ref{gammaexp}, with magnitude imbalance $\Delta M_{1,2}=0.5$.  
-\textbf{Columns D-E.} Corresponding cosine similarity between task-specific gradients (GradSim, Eq.~\ref{gradsim}) and gradient magnitudes (GradMag, Eq.~\ref{gradmag}) for both tasks over training until convergence. In Appendix~\ref{gammaexp}, we compare these dynamics with those observed in the analogous balanced-magnitude setting and in ReLU networks.
+<img width="928" height="370" alt="image" src="https://github.com/user-attachments/assets/6b8ccd22-4353-40b0-b2e8-405147008570" />
+Figure 3. **Column A**. _Analytical solutions (black dotted lines) match numerical simulations of task-specific losses (task~1: green; task~2: blue solid lines) and_, **Columns B-C**, _the components of the network functions W_iW_S for a linear neural network (N_1=5, N_S=2, N_{o1}=N_{o2}=1). The network is trained on fully aligned (top row), conflicting (middle row), and orthogonal (bottom row).  _
+**Columns D-E**. Corresponding cosine similarity between task-specific gradients (GradSim) and gradient magnitudes (GradMag) for both tasks over training until convergence._ 
 
 
 ## Repository contents
