@@ -4,7 +4,7 @@ Code for paper "The Dynamics of Task Interactions in Deep Linear Multi-Task Netw
 The goal of this paper is to provide insight into how task alignment (defined in terms of singular vectors) shapes the way multiple tasks interact in linear multi-task networks. The repository contains all the code to reproduce the results presented in the paper. Exact reproduction of the main papers figures is possible by running the correpsonding notebooks. 
 
 <img width="928" height="370" alt="image" src="https://github.com/user-attachments/assets/6b8ccd22-4353-40b0-b2e8-405147008570" />
-Figure 3. Column A. Analytical solutions (black dotted lines) match numerical simulations of task-specific losses (task~1: green; task~2: blue solid lines) and_, Columns B-C. The components of the network functions for a linear neural network. The network is trained on fully aligned (top row), conflicting (middle row), and orthogonal (bottom row).  _
+Figure 3. Column A. Analytical solutions (black dotted lines) match numerical simulations of task-specific losses (task~1: green; task~2: blue solid lines) and, Columns B-C. The components of the network functions for a linear neural network. The network is trained on fully aligned (top row), conflicting (middle row), and orthogonal (bottom row).  
 Columns D-E. Corresponding cosine similarity between task-specific gradients (GradSim) and gradient magnitudes (GradMag) for both tasks over training until convergence.
 
 
